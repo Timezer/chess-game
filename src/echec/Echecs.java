@@ -28,9 +28,9 @@ public class Echecs {
 			plateau.getCase(d.getX1(), d.getY1()).remplirCase(pieDep);
 			plateau.getCase(d.getX0(), d.getY0()).enleverPiece();
 			if (joueur == Piece.blanc)
-				System.out.println("Le joueur blanc mange une pièce noire");
+				System.out.println("Le joueur blanc mange une piece noire");
 			else
-				System.out.println("Le joueur noir mange une pièce blanche");
+				System.out.println("Le joueur noir mange une piece blanche");
 			if (pieArr instanceof Roi) {
 				if (joueur == Piece.blanc)
 					System.out.println("Le joueur blanc gagne");
