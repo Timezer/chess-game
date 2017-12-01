@@ -5,7 +5,7 @@ import java.util.Scanner;
 import piece.Piece;
 
 public class Communications {
-
+//Test
 	Scanner sc;
 
 	public Communications() {
@@ -31,5 +31,7 @@ public class Communications {
 		return new Deplacement(x0, y0, x1, y1);
 		
 	}
+	
+	// Test
 
 }
